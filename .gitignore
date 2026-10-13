@@ -1,0 +1,16 @@
+node_modules/
+.env
+dist/
+*.log
+.DS_Store
+data/*.db
+data/*.db-*
+uploads/
+coverage/
+.idea/
+.vscode/
+
+# временные файлы Word (не коммитить)
+~$*.docx
+*.BACKUP.docx
+docs/word/~$*

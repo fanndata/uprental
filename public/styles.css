@@ -1,0 +1,27 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+  background: linear-gradient(160deg, #eef3f7 0%, #d9e4ec 45%, #f7f1ea 100%);
+  color: #1d2a33;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+code {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0.15rem 0.4rem;
+}
+
+ul {
+  line-height: 1.7;
+}

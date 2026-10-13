@@ -1,0 +1,69 @@
+{
+    "totals": {
+        "total_rentals": 12,
+        "total_revenue": "217600.00",
+        "avg_check": "18133.333333"
+    },
+    "byStatus": [
+        {
+            "status": "pending",
+            "total": 3
+        },
+        {
+            "status": "active",
+            "total": 2
+        },
+        {
+            "status": "completed",
+            "total": 5
+        },
+        {
+            "status": "cancelled",
+            "total": 2
+        }
+    ],
+    "byCategory": [
+        {
+            "category": "Комфорт",
+            "total": 3,
+            "revenue": "42300.00"
+        },
+        {
+            "category": "Эконом",
+            "total": 3,
+            "revenue": "12000.00"
+        },
+        {
+            "category": "Бизнес",
+            "total": 2,
+            "revenue": "37000.00"
+        },
+        {
+            "category": "Минивэн",
+            "total": 2,
+            "revenue": "63800.00"
+        },
+        {
+            "category": "Внедорожник",
+            "total": 2,
+            "revenue": "62500.00"
+        }
+    ],
+    "byMonth": [
+        {
+            "month": "2026-01",
+            "total": 4,
+            "revenue": "47600.00"
+        },
+        {
+            "month": "2026-02",
+            "total": 4,
+            "revenue": "73900.00"
+        },
+        {
+            "month": "2026-03",
+            "total": 4,
+            "revenue": "96100.00"
+        }
+    ]
+}

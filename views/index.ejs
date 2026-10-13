@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Система учёта аренды автомобилей</h1>
+    <p>Минимальный клиентский интерфейс. Основная работа — через REST API (Postman / curl).</p>
+    <p><a href="/health">Health-check</a></p>
+    <h2>Основные эндпоинты</h2>
+    <ul>
+      <% endpoints.forEach(function(item) { %>
+        <li><code><%= item %></code></li>
+      <% }) %>
+    </ul>
+    <h2>Тестовые пользователи</h2>
+    <ul>
+      <li>admin@rent.local / Password123 (admin)</li>
+      <li>manager@rent.local / Password123 (manager)</li>
+      <li>client@rent.local / Password123 (client)</li>
+      <li>ещё 8 пользователей в sql/seed.sql, пароль тот же</li>
+    </ul>
+  </main>
+</body>
+</html>
